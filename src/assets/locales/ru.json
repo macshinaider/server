@@ -1,0 +1,160 @@
+{
+  "BATTLE": {
+    "DESCRIPTION": "Игроков: {{ players }} / Умерло: {{ kills }} / Славы получено: {{ fame }}\nПродолжительность: {{ duration }}",
+    "EVENT": "Битва произошла между {{ guilds }} гильдиями!",
+    "LINE": "{{ name }} [{{ total }}] ({{ kills }}/{{ deaths }}) - Слава: {{fame}}",
+    "NO_ALLIANCE": "Другие",
+    "NO_GUILD": "Игроки без гильдии"
+  },
+  "COMMAND_ERROR": "Ocorreu um erro ao executar o comando. Por favor tente novamente mais tarde.",
+  "HELP": {
+    "HELP": "Показать список команд бота.",
+    "LIST": "Списки отслеживаемых игроков, гильдий и альянсов.",
+    "RANKING": "Display rankings.",
+    "SETTINGS": "Change settings for your server.",
+    "SUBSCRIPTION": "Check or activate your subscription.",
+    "TRACK": "Отслеживает игрока, гильдию или альянс.",
+    "UNTRACK": "Перестает отслеживать игрока, гильдию или альянс.",
+    "VERSION": "Check bot version."
+  },
+  "KILL": {
+    "ASSIST": "Помошник(и): {{{ assists }}}",
+    "BAD_TITLE": "{{ victim }} была убита {{ killer }}",
+    "FAME": "Слава",
+    "GOOD_TITLE": "{{ killer }} убил {{ victim }}",
+    "KILLER_GUILD": "Гильдия убийц",
+    "KILLER_IP": "IP убийцы",
+    "LOOT_VALUE": "Loot Value",
+    "NO_GUILD": "Без гильдии",
+    "SOLO_0": "Умер случайно! Одинокая смерть!!!",
+    "SOLO_1": "И это была одинокая смерть.",
+    "SOLO_2": "Чистая одинакая смерть.",
+    "SOLO_3": "Умер собственной смертью.",
+    "SOLO_4": "Убился! Одинокая смерть!.",
+    "SOLO_5": "Одинокая смерть. Без коментариев.",
+    "VICTIM_GUILD": "Гильдия жертв",
+    "VICTIM_IP": "IP жертвы"
+  },
+  "RANKING": {
+    "CRAFTING": "Рейтинг крафта",
+    "DAILY": "Daily PvP Ranking",
+    "DEATH_FAME": "Top Death Fame",
+    "GATHERING": "Рейтинг сборки",
+    "GUILD_RANKING_DESCRIPTION": "Total Kill Fame: {{ killFame }}\nTotal Death Fame: {{ deathFame }}",
+    "GUILD_RANKING_SET": "Guild Ranking display mode is set to '{{ guildRanking }}'",
+    "KILL_FAME": "Top Kill Fame",
+    "MONTHLY": "Ежемесечный рейтинг - {{ guild }}",
+    "NO_DATA": "No data available for guild '{{{ guild }}}'. Give the bot a day to fetch data and try again.",
+    "NO_DATA_SHORT": "No data available",
+    "PVE": "Рейтинг PvE",
+    "PVP": "Рейтинг PvP",
+    "PVP_RANKING_SET": "PvP Ranking display mode is set to '{{ pvpRanking }}'",
+    "TOTAL_DEATH_FAME": "Total Death Fame",
+    "TOTAL_KILL_FAME": "Total Kill Fame"
+  },
+  "SETTINGS": {
+    "BATTLES": "Change settings for battle notifications.",
+    "CHANNEL": {
+      "DESCRIPTION": "Канал для отправки уведомлений",
+      "NOT_SET": "Внимание: канал для отправки уведомлений не установлен. Пожалуйста используйте /settings настроить его.",
+      "NULL": "Пожалуйста, введите канал для уведомлений.",
+      "SET": "Channel for category '{{ category }}' defined to {{{ channel }}}."
+    },
+    "DEATHS": "Change settings for death notifications.",
+    "DISABLED": "disabled",
+    "ENABLED": "Enabled",
+    "FREQUENCIES": {
+      "DAILY": "Daily",
+      "HOURLY": "Every hour",
+      "OFF": "Off"
+    },
+    "GENERAL": "Изменить общие настройки",
+    "GUILD_RANKING": "Guild Ranking",
+    "GUILD_TAGS": {
+      "DESCRIPTION": "Показывать теги гильдии в именах игроков.",
+      "SET": "Показать теги гильдии: {{ enabled }}"
+    },
+    "KILLS": "Change settings for kill notifications.",
+    "LANG": {
+      "DESCRIPTION": "Change language.",
+      "NOT_SUPPORTED": "Этот язык не поддерживается.",
+      "SET": "Язык установлен на '{{ lang }}'"
+    },
+    "MODE": {
+      "IMAGE": "Image",
+      "SET": "Режим установлен на: {{ mode }}",
+      "TEXT": "Text"
+    },
+    "PVP_RANKING": "PvP Ranking",
+    "RANKINGS": "Change settings for ranking notifications.",
+    "SET": "Notifications for category `{{ category }}` are `{{ option }}`",
+    "SPLIT_LOOT_VALUE": {
+      "DESCRIPTION": "Разделите стоимость добычи между снаряжением и инвентарем.",
+      "SET": "Разделить стоимость добычи: {{ enabled }}"
+    }
+  },
+  "SUBSCRIPTION": {
+    "ACTIONS": "Invalid action, please select one of: {{ actions }}.",
+    "CANCELLED": "Your subscription has been cancelled.",
+    "CONFIRMED": "Your subscription is now confirmed. You can now start using the bot.",
+    "ERROR": {
+      "FETCH_FAIL": "Failed to fetch subscriber list. Please try again later.",
+      "MAIL_NOT_FOUND": "Couldn't find your e-mail in subscriber list.",
+      "PATREON_DISCORD_NOT_FOUND": "Couldn't find your account subscriber list. Please link your Discord account with patreon account and try again."
+    },
+    "FAILED": "Failed to validate subscription: {{ reason }}",
+    "STATUS": {
+      "ACTIVE": "Your subscription is active.",
+      "DAYS_REMAINING": "Your subscription has {{{ days }}} day(s) remaining",
+      "EXPIRED": "Your subscription has expired.",
+      "INACTIVE": "Your subscription isn't activated yet. Please check with bot adminstrator."
+    }
+  },
+  "TRACK": {
+    "ALLIANCES": {
+      "DESCRIPTION": "Alliance ID",
+      "TITLE": "Альянсы ({{ actual }}/{{ max }})",
+      "TRACKED": "Отслеживание альянса: {{ name }}.",
+      "TYPE": "Альянсы",
+      "UNTRACKED": "Прекращение отслеживание альянса: {{ name }}."
+    },
+    "ALREADY_TRACKED": "Я уже отслеживаю это.",
+    "CHANNEL": {
+      "CUSTOM": "Уведомления будут отправляться на канал: {{{channel }}}",
+      "DEFAULT": "Уведомления будут отправляться на канал по умолчанию."
+    },
+    "ERRORS": {
+      "FETCH_FAILED": "Не удалось загрузить настройки отслеживания. Пожалуйста, повторите попытку позже."
+    },
+    "FREE_LIMIT_REACHED": "Вы достигли предела {{ limit }} {{ type }} для бесплатных серверов. Повышение статуса до Premium увеличит ваши слоты до {{ premiumLimit }} {{ type }}. Для получения более подробной информации посетите [премиум-страницу]({{{ url }}}).",
+    "GUILDS": {
+      "DESCRIPTION": "Guild name",
+      "TITLE": "Гильдии ({{ actual }}/{{ max }})",
+      "TRACKED": "Отслеживание гильдии: {{ name }}.",
+      "TYPE": "Гильдии",
+      "UNTRACKED": "Прекращение отслеживание гильдии: {{ name }}."
+    },
+    "LIMIT_REACHED": "Вы уже достигли лимита {{ limit }} элементов в этом списке.",
+    "LIST": "Список отслеживаемых",
+    "MISSING_PARAMETERS": "Please set at least one option.",
+    "NONE": "Никто",
+    "NOT_FOUND": "К сожалению, я не смог найти ничего с таким именем.",
+    "PLAYERS": {
+      "DESCRIPTION": "Player name",
+      "TITLE": "Игроки ({{ actual }}/{{ max }})",
+      "TRACKED": "Отслеживание игрока: {{ name }}.",
+      "TYPE": "Игроки",
+      "UNTRACKED": "Прекращение отслеживание игрока: {{ name }}."
+    },
+    "SEARCH_FAILED": "Failed to fetch data from Albion Servers. Please try again.",
+    "SERVER": {
+      "DESCRIPTION": "Сервер"
+    },
+    "TRACKING_DISABLED": "К сожалению, отслеживание {{ type }} отключено. Пожалуйста, свяжитесь с администратором бота для получения дополнительной информации.",
+    "UNSUPPORTED_TYPE": "Неподдерживаемый тип. Введите !help чтобы увидеть больше"
+  },
+  "VERSION": {
+    "NOT_FOUND": "Unable to retrieve bot version.",
+    "PACKAGE_VERSION": "Albion Killbot v{{ version }}"
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "BATTLE": {
+    "DESCRIPTION": "Players: {{ players }} / Kills: {{ kills }} / Fame: {{ fame }}\nDuration: {{ duration }}",
+    "EVENT": "A battle ocurred between {{ guilds }} guilds!",
+    "LINE": "{{ name }} [{{ total }}] ({{ kills }}/{{ deaths }}) - Fame: {{fame}}",
+    "NO_ALLIANCE": "Others",
+    "NO_GUILD": "Players without Guild"
+  },
+  "COMMAND_ERROR": "There was an error while executing this command. Please try again later.",
+  "HELP": {
+    "HELP": "Show bot command list.",
+    "LIST": "Lists tracked players, guilds and alliances.",
+    "RANKING": "Display rankings.",
+    "SETTINGS": "Change settings for your server.",
+    "SUBSCRIPTION": "Check or activate your subscription.",
+    "TRACK": "Tracks a player, guild or alliance.",
+    "UNTRACK": "Stops tracking a player, guild or alliance.",
+    "VERSION": "Check bot version."
+  },
+  "KILL": {
+    "ASSIST": "Assist(s): {{{ assists }}}",
+    "BAD_TITLE": "{{ victim }} was killed by {{ killer }}",
+    "FAME": "Kill Fame",
+    "GOOD_TITLE": "{{ killer }} killed {{ victim }}",
+    "KILLER_GUILD": "Killer's Guild",
+    "KILLER_IP": "Killer's IP",
+    "LOOT_VALUE": "Loot Value",
+    "NO_GUILD": "No guild",
+    "SOLO_0": "Die casual! Solo kill!!!",
+    "SOLO_1": "And it was a solo kill.",
+    "SOLO_2": "A clean solo kill.",
+    "SOLO_3": "No assists needed.",
+    "SOLO_4": "Get rekt! Solo kill.",
+    "SOLO_5": "Solo killed. No questions asked.",
+    "VICTIM_GUILD": "Victim's Guild",
+    "VICTIM_IP": "Victim's IP"
+  },
+  "RANKING": {
+    "CRAFTING": "Crafting Ranking",
+    "DAILY": "Daily PvP Ranking",
+    "DEATH_FAME": "Top Death Fame",
+    "GATHERING": "Gathering Ranking",
+    "GUILD_RANKING_DESCRIPTION": "Total Kill Fame: {{ killFame }}\nTotal Death Fame: {{ deathFame }}",
+    "GUILD_RANKING_SET": "Guild Ranking display mode is set to '{{ guildRanking }}'",
+    "KILL_FAME": "Top Kill Fame",
+    "MONTHLY": "Monthly Ranking - {{ guild }}",
+    "NO_DATA": "No data available for guild '{{{ guild }}}'. Give the bot a day to fetch data and try again.",
+    "NO_DATA_SHORT": "No data available",
+    "PVE": "PvE Ranking",
+    "PVP": "PvP Ranking",
+    "PVP_RANKING_SET": "PvP Ranking display mode is set to '{{ pvpRanking }}'",
+    "TOTAL_DEATH_FAME": "Total Death Fame",
+    "TOTAL_KILL_FAME": "Total Kill Fame"
+  },
+  "SETTINGS": {
+    "BATTLES": "Change settings for battle notifications.",
+    "CHANNEL": {
+      "DESCRIPTION": "Channel to send notifications",
+      "NOT_SET": "WARNING: Channel to send notifications is not set. Please set up a channel in /settings.",
+      "NULL": "Please input a channel for notifications.",
+      "SET": "Channel for category '{{ category }}' defined to {{{ channel }}}."
+    },
+    "DEATHS": "Change settings for death notifications.",
+    "DISABLED": "Disabled",
+    "ENABLED": "Enabled",
+    "FREQUENCIES": {
+      "DAILY": "Daily",
+      "HOURLY": "Every hour",
+      "OFF": "Off"
+    },
+    "GENERAL": "Change general settings",
+    "GUILD_RANKING": "Guild Ranking",
+    "GUILD_TAGS": {
+      "DESCRIPTION": "Show guild tags in player's names.",
+      "SET": "Display guild tags: {{ enabled }}"
+    },
+    "KILLS": "Change settings for kill notifications.",
+    "LANG": {
+      "DESCRIPTION": "Change language.",
+      "NOT_SUPPORTED": "This language is not supported.",
+      "SET": "Language set to '{{ lang }}'"
+    },
+    "MODE": {
+      "IMAGE": "Image",
+      "SET": "Output mode set to: {{ mode }}",
+      "TEXT": "Text"
+    },
+    "PVP_RANKING": "PvP Ranking",
+    "RANKINGS": "Change settings for ranking notifications.",
+    "SET": "Notifications for category `{{ category }}` are `{{ option }}`",
+    "SPLIT_LOOT_VALUE": {
+      "DESCRIPTION": "Split the loot value between gear and inventory.",
+      "SET": "Split loot value: {{ enabled }}"
+    }
+  },
+  "SUBSCRIPTION": {
+    "ACTIONS": "Invalid action, please select one of: {{ actions }}.",
+    "CANCELLED": "Your subscription has been cancelled.",
+    "CONFIRMED": "Your subscription is now confirmed. You can now start using the bot. :)",
+    "ERROR": {
+      "FETCH_FAIL": "Failed to fetch subscriber list. Please try again later.",
+      "MAIL_NOT_FOUND": "Couldn't find your e-mail in subscriber list.",
+      "PATREON_DISCORD_NOT_FOUND": "Couldn't find your account subscriber list. Please link your Discord account with patreon account and try again."
+    },
+    "FAILED": "Failed to validate subscription: {{{ reason }}}",
+    "STATUS": {
+      "ACTIVE": "Your subscription is active.",
+      "DAYS_REMAINING": "Your subscription has {{{ days }}} day(s) remaining",
+      "EXPIRED": "Your subscription has expired.",
+      "INACTIVE": "Your subscription isn't activated yet. Please check with bot adminstrator."
+    }
+  },
+  "TRACK": {
+    "ALLIANCES": {
+      "DESCRIPTION": "Alliance ID",
+      "TITLE": "Alliances ({{ actual }}/{{ max }})",
+      "TRACKED": "Tracking alliance: {{ name }}.",
+      "TYPE": "Alliances",
+      "UNTRACKED": "Untracking alliance: {{ name }}."
+    },
+    "ALREADY_TRACKED": "I am already tracking this item.",
+    "CHANNEL": {
+      "CUSTOM": "Notifications will be sent to the channel: {{{ channel }}}",
+      "DEFAULT": "Notifications will be sent to the default channel."
+    },
+    "ERRORS": {
+      "FETCH_FAILED": "Unable to fetch track settings. Please try again later."
+    },
+    "FREE_LIMIT_REACHED": "You reached the limit of {{ limit }} {{ type }} for free servers. Upgrading to the Premium status will increase your slots to {{ premiumLimit }} {{ type }}. For more details, please visit the [premium page]({{{ url }}}).",
+    "GUILDS": {
+      "DESCRIPTION": "Guild name",
+      "TITLE": "Guilds ({{ actual }}/{{ max }})",
+      "TRACKED": "Tracking guild: {{ name }}.",
+      "TYPE": "Guilds",
+      "UNTRACKED": "Untracking guild: {{ name }}."
+    },
+    "LIMIT_REACHED": "You already reached the limit of {{ limit }} items in this list.",
+    "LIST": "Tracking list",
+    "MISSING_PARAMETERS": "Please set at least one option.",
+    "NONE": "None",
+    "NOT_FOUND": "Sorry, I couldn't find anything with this name.",
+    "PLAYERS": {
+      "DESCRIPTION": "Player name",
+      "TITLE": "Players ({{ actual }}/{{ max }})",
+      "TRACKED": "Tracking player: {{ name }}.",
+      "TYPE": "Players",
+      "UNTRACKED": "Untracking player: {{ name }}."
+    },
+    "SEARCH_FAILED": "Failed to fetch data from game servers. Please try again.",
+    "SERVER": {
+      "DESCRIPTION": "Server"
+    },
+    "TRACKING_DISABLED": "Sorry, tracking of {{ type }} is disabled. Please contact bot admin for more information.",
+    "UNSUPPORTED_TYPE": "Unsupported type of tracking. Type !help to see more."
+  },
+  "VERSION": {
+    "NOT_FOUND": "Unable to retrieve bot version.",
+    "PACKAGE_VERSION": "Albion Killbot v{{ version }}"
+  }
+}

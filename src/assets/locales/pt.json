@@ -1,0 +1,160 @@
+{
+  "BATTLE": {
+    "DESCRIPTION": "Jogadores: {{ players }} / Abates: {{ kills }} / Fama: {{ fame }}\nDuração: {{ duration }}",
+    "EVENT": "Ocorreu uma batalha entre {{ guilds }} guildas!",
+    "LINE": "{{ name }} [{{ total }}] ({{ kills }}/{{ deaths }}) - Fama: {{fame}}",
+    "NO_ALLIANCE": "Outros",
+    "NO_GUILD": "Jogadores sem Guilda"
+  },
+  "COMMAND_ERROR": "Ocorreu um erro ao executar o comando. Por favor tente novamente mais tarde.",
+  "HELP": {
+    "HELP": "Mostra a lista de comandos do bot.",
+    "LIST": "Lista os jogadores, guildas e alianças rastreadas.",
+    "RANKING": "Mostra os rankings.",
+    "SETTINGS": "Mudar as configurações do seu servidor.",
+    "SUBSCRIPTION": "Verifica ou ativa sua assinatura.",
+    "TRACK": "Rastreia um jogador, guilda ou aliança.",
+    "UNTRACK": "Para de rastrear um jogador, guilda ou aliança.",
+    "VERSION": "Verifica a versão do bot."
+  },
+  "KILL": {
+    "ASSIST": "Assistência(s): {{{ assists }}}",
+    "BAD_TITLE": "{{ victim }} foi morto por {{ killer }}",
+    "FAME": "Fama do Abate",
+    "GOOD_TITLE": "{{ killer }} matou {{ victim }}",
+    "KILLER_GUILD": "Guilda do Matador",
+    "KILLER_IP": "IP do Matador",
+    "LOOT_VALUE": "Valor do Loot",
+    "NO_GUILD": "Sem guilda",
+    "SOLO_0": "Solado parça!",
+    "SOLO_1": "SOLADINHO BR!!! HUEHUEU",
+    "SOLO_2": "E foi de soled!",
+    "SOLO_3": "Ciiirco de soled.",
+    "SOLO_4": "Chamou pro duelo e foi de base.",
+    "SOLO_5": "Não garantiu no x1.",
+    "VICTIM_GUILD": "Guilda da Vítima",
+    "VICTIM_IP": "IP da Vítima"
+  },
+  "RANKING": {
+    "CRAFTING": "Ranking de Criação",
+    "DAILY": "Ranking diário de PvP",
+    "DEATH_FAME": "Top Fama de Mortes",
+    "GATHERING": "Ranking de Coleta",
+    "GUILD_RANKING_DESCRIPTION": "Fama Total de Abates: {{ killFame }}\nFama Total de Mortes: {{ deathFame }}",
+    "GUILD_RANKING_SET": "Ranking de Guildas está definido no modo '{{ guildRanking }}'",
+    "KILL_FAME": "Top Fama de Abates",
+    "MONTHLY": "Ranking Mensal - {{ guild }}",
+    "NO_DATA": "Sem dados disponíveis para a guilda '{{{ guild }}}'. Aguarde um dia e tente novamente.",
+    "NO_DATA_SHORT": "Sem dados",
+    "PVE": "Ranking PvE",
+    "PVP": "Ranking PvP",
+    "PVP_RANKING_SET": "Ranking PvP está definido no modo '{{ pvpRanking }}'",
+    "TOTAL_DEATH_FAME": "Fama Total de Mortes",
+    "TOTAL_KILL_FAME": "Fama Total de Abates"
+  },
+  "SETTINGS": {
+    "BATTLES": "Mudar configurações de batalhas.",
+    "CHANNEL": {
+      "DESCRIPTION": "Canal para enviar notificações",
+      "NOT_SET": "AVISO: Canal para enviar notificações não configurado. Por favor, use /settings to configurá-lo.",
+      "NULL": "Por favor, insira o canal para receber as notificações.",
+      "SET": "Canal para a categoria '{{ category }}' definido para {{{ channel }}}."
+    },
+    "DEATHS": "Mudar configurações de mortes.",
+    "DISABLED": "desativado",
+    "ENABLED": "Ativado",
+    "FREQUENCIES": {
+      "DAILY": "Diariamente",
+      "HOURLY": "A cada hora",
+      "OFF": "Desligado"
+    },
+    "GENERAL": "Mudar configurações gerais",
+    "GUILD_RANKING": "Ranking de Guilda",
+    "GUILD_TAGS": {
+      "DESCRIPTION": "Mostra as tags da guilda nos nomes dos jogadores.",
+      "SET": "Mostra as tags da guilda: {{ enabled }}"
+    },
+    "KILLS": "Mudar configurações de abates.",
+    "LANG": {
+      "DESCRIPTION": "Alterar idioma.",
+      "NOT_SUPPORTED": "Este idioma não é suportado.",
+      "SET": "Idioma definido para '{{ lang }}'"
+    },
+    "MODE": {
+      "IMAGE": "Imagem",
+      "SET": "Modo de saida definido para: {{ mode }}",
+      "TEXT": "Texto"
+    },
+    "PVP_RANKING": "Ranking PvP",
+    "RANKINGS": "Mudar configurações de rankings.",
+    "SET": "Notificações da categoria `{{ category }}` estão `{{ option }}s`",
+    "SPLIT_LOOT_VALUE": {
+      "DESCRIPTION": "Divida o valor do loot entre equipamento e inventário.",
+      "SET": "Valor do loot dividido: {{ enabled }}"
+    }
+  },
+  "SUBSCRIPTION": {
+    "ACTIONS": "Ação inválida, use um destes: {{ actions }}.",
+    "CANCELLED": "Sua assinatura foi cancelada.",
+    "CONFIRMED": "Sua assinatura foi confirmada com sucesso. Aproveite o bot :)",
+    "ERROR": {
+      "FETCH_FAIL": "Falha ao buscar lista de assinantes. Tente novamente mais tarde.",
+      "MAIL_NOT_FOUND": "Não fui capaz de encontrar seu e-mail na lista de assinantes.",
+      "PATREON_DISCORD_NOT_FOUND": "Não encontrei sua conta na lista de assinantes. Por favor, vincule sua conta Discord com a conta Patreon e tente novamente."
+    },
+    "FAILED": "Não foi possível validar assinatura: {{ reason }}",
+    "STATUS": {
+      "ACTIVE": "Sua assinatura está ativada.",
+      "DAYS_REMAINING": "Sua assinatura possui {{{ days }}} dia(s) restando",
+      "EXPIRED": "Sua assinatura expirou.",
+      "INACTIVE": "Sua assinatura ainda não foi ativada. Por favor contate o administrador do bot."
+    }
+  },
+  "TRACK": {
+    "ALLIANCES": {
+      "DESCRIPTION": "ID da aliança",
+      "TITLE": "Alianças ({{ actual }}/{{ max }})",
+      "TRACKED": "Rastreando aliança: {{ name }}.",
+      "TYPE": "Alianças",
+      "UNTRACKED": "Parando de rastrear aliança: {{ name }}."
+    },
+    "ALREADY_TRACKED": "Já estou rastreando este item.",
+    "CHANNEL": {
+      "CUSTOM": "As notificações serão enviadas para o canal: {{{ channel }}}",
+      "DEFAULT": "As notificações serão enviadas para o canal padrão."
+    },
+    "ERRORS": {
+      "FETCH_FAILED": "Não foi possível recuperar informações de rastreamento. Tente novamente mais tarde."
+    },
+    "FREE_LIMIT_REACHED": "Você atingiu o limite de {{ limit }} {{ type }} para servidores gratuitos. A atualização para o status Premium aumentará seus slots para {{ premiumLimit }} {{ type }}. Para mais detalhes, visite a [página premium]({{{ url }}}).",
+    "GUILDS": {
+      "DESCRIPTION": "Nome da guilda",
+      "TITLE": "Guildas ({{ actual }}/{{ max }})",
+      "TRACKED": "Rastreando guilda: {{ name }}.",
+      "TYPE": "Guildas",
+      "UNTRACKED": "Parando de rastrear guilda: {{ name }}."
+    },
+    "LIMIT_REACHED": "Você atingiu o limite de {{ limit }} itens nesta lista.",
+    "LIST": "Lista de rastreamentos",
+    "MISSING_PARAMETERS": "Por favor, insira pelo menos uma opção.",
+    "NONE": "Nenhum(a)",
+    "NOT_FOUND": "Desculpe, não consegui encontrar nada com este nome.",
+    "PLAYERS": {
+      "DESCRIPTION": "Nome do jogador",
+      "TITLE": "Jogadores ({{ actual }}/{{ max }})",
+      "TRACKED": "Rastreando jogador: {{ name }}.",
+      "TYPE": "Jogadores",
+      "UNTRACKED": "Parando de rastrear jogador: {{ name }}."
+    },
+    "SEARCH_FAILED": "Falha ao buscar dados nos servidores do jogo. Por favor, tente novamente.",
+    "SERVER": {
+      "DESCRIPTION": "Servidor"
+    },
+    "TRACKING_DISABLED": "Desculpe, o rastreamento de {{ type }} está desativado. Entre em contato com o administrador do bot para obter mais informações.",
+    "UNSUPPORTED_TYPE": "Tipo de rastreamento não suportado. Digite !help para ver mais."
+  },
+  "VERSION": {
+    "NOT_FOUND": "Não foi possível carregar a versão do bot.",
+    "PACKAGE_VERSION": "Albion Killbot v{{ version }}"
+  }
+}
